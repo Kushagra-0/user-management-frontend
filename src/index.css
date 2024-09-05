@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+div {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #007bff;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+td a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+button[type="button"]:hover {
+  background-color: #dc3545;
+}
+
+button.cancel {
+  background-color: #6c757d;
+}
+
+button.cancel:hover {
+  background-color: #5a6268;
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  th, td {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  form {
+    padding: 15px;
+  }
+}
